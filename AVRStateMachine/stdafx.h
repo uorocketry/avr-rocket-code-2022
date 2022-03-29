@@ -5,7 +5,7 @@
 #include <stdio.h>
 #define  F_CPU			4000000UL
 #include <util/delay.h>
-#define DELAY_TIME		500
+#define DELAY_TIME		5000
 #define PERIOD_EXAMPLE_VALUE			(0x0271)
 #define DUTY_CYCLE_EXAMPLE_VALUE		(0x0068)		
 #include <stdlib.h>

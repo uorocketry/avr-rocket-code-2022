@@ -1,5 +1,6 @@
 ﻿#include "stdafx.h"
 // Work on this file
+// change size_t to 8 bit
 void * operator new(size_t n)
 {
 	void * const p = malloc(n);
